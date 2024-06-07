@@ -44,8 +44,8 @@ To use the VueComponent class and render the main Vue component into an HTML ele
 ```javascript
   import { VueComponent } from './index'
 
-  const conversaInstance = new Conversa()
-  conversaInstance.render('your-element-id')
+  const component = new VueComponent()
+  component.render('your-element-id')
 ```
 
 ### Testing
