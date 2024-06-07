@@ -1,5 +1,5 @@
 <template >
-  <p>This is Conversa Main Vue Component</p>
+  <p>This is the Main Vue Component</p>
 </template>
 
 <script>

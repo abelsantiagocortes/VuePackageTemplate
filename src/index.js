@@ -1,17 +1,17 @@
 import $ from 'jquery'
 import  Vue from 'vue'
 import Main from './components/Main.vue'
-class Conversa {
+class VueComponent {
   constructor(){
 
   }
   render(id){
-    $(`#${id}`).html('<div id="conversa-js-vue-root" />')
+    $(`#${id}`).html('<div id="component-js-vue-root" />')
     this.rootComponent = new Vue({
-      el: '#conversa-js-vue-root',
+      el: '#component-js-vue-root',
       render: h => h(Main, {})
     })
   }
 }
 
-export { Conversa }
+export { VueComponent }
